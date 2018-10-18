@@ -1,0 +1,29 @@
+.mapinco_easymaps_container{
+  overflow:hidden;
+  background-color:white;
+  padding:20px;
+  margin:0 0 20px;
+}
+.mapinco_easymaps_content{
+  float:left; width:30%;
+}
+.mapinco_easymaps_content input.regular-text{ max-width:100%; }
+.mapinco_easymaps_content p:first-child{ margin-top:0;}
+.mapinco_easymaps_content p:last-child{ margin-bottom:0;}
+.mapinco_easymaps_view{
+  float:right; width:70%;
+}
+#easy_maps_map{
+  margin-left:20px;
+}
+.marker_block{
+	display:inline-block;
+}
+.marker_block .button{
+	vertical-align:middle; margin:0;
+}
+
+#markers_table{ margin:0 0 20px; }
+#markers_table .col-name{ width:200px; }
+#markers_table .col-actions{ width:200px; }
+
